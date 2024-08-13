@@ -7,9 +7,7 @@
 void initMd5Vals(uint32_t *vars);
 uint64_t countrounds(const char *input);
 void md5(const char *initial_msg);
-void setZero(uint32_t m[]);
-
-void tolitendien(uint32_t *arr);
+void setZero(uint32_t m[]);void tolitendien(uint32_t *arr);
 void to_bytes(uint32_t val, uint8_t *bytes);
 void split_to_bytes(uint32_t *h, uint8_t *bytes);
 void printSchedule(uint32_t *m);
